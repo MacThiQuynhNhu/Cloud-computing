@@ -6,8 +6,6 @@
       }
     ],
     "routes": [
-       { "handle": "filesystem" },
-      { "src": "/api/(.*)", "dest": "http://34.30.139.186/api/$1", "methods": ["GET", "POST", "PUT", "DELETE"] },
-      { "src": "/(.*)", "dest": "/index.html" }
+      { "src": "/(.*)","dest": "http://34.30.139.186:4000"}
     ]
   }
