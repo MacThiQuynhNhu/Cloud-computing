@@ -15,7 +15,7 @@ import Carousel from "react-material-ui-carousel";
 import bg from "../../Assets/backgroundHome1.webp";
 
 import bg3 from "../../Assets/backgroundHome2.jpg";
-import bg4 from "../../Assets/productBanner/NEW_ARRIVALS.png";
+import bg4 from "../../Assets/productBanner/2.jpg";
 
 const categories = ["Áo hoodie", "Others"];
 const styleman = [

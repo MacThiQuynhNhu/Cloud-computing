@@ -2,10 +2,10 @@ import React, { useEffect, useState } from "react";
 import "./Home.css";
 import Carousel from "react-material-ui-carousel";
 
-import bg from "../../Assets/banner.webp";
-import bg2 from "../../Assets/banner2.webp";
-import bg3 from "../../Assets/top-banner-pc-3.png";
-import bg4 from "../../Assets/cover-whiteonwhite.jpg";
+import bg from "../../Assets/banner.jpg";
+import bg2 from "../../Assets/banner2.jpg";
+import bg3 from "../../Assets/top-banner-pc-3.jpg";
+import bg4 from "../../Assets/2.jpg";
 
 import ProductCard from "../Products/ProductCard";
 import { useDispatch, useSelector } from "react-redux";
@@ -39,7 +39,7 @@ const Home = () => {
       ) : (
         <>
           <ModalContact />
-          <MetaData title="Kiana shop" />
+          <MetaData title="Như Anh shop" />
           <Header />
           {/* Carousel */}
           <div

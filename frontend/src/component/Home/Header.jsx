@@ -3,7 +3,7 @@ import React, { useRef } from "react";
 import "./Header.css";
 import { Link } from "react-router-dom";
 import { useDispatch, useSelector } from "react-redux";
-import logo from "../../Assets/logo.webp";
+import logo from "../../Assets/logo.png";
 import PersonIcon from "@material-ui/icons/Person";
 import { logout } from "../../actions/userAction";
 import { ToastContainer, toast } from "react-toastify";
@@ -143,7 +143,7 @@ const Header = () => {
                 objectFit: "contain",
                 cursor: "pointer",
               }}
-            /><div className="textLogo"><h1>KIANA</h1></div>
+            /><div className="textLogo"><h1>Như Anh</h1></div>
             
           </Link>
         </div>
@@ -157,29 +157,7 @@ const Header = () => {
             
           }}
         >
-          <div
-            className="inputBox"
-            style={{
-              display: "flex",
-              alignItems: "center",
-              height: "30px",
-              width: "100%",
-              background: "#0076dead",
-              overflow: "hidden",
-              borderRadius:"5px",
-             
-            }}
-          >
-            <span
-              style={{
-                color: "#fff",
-              }}
-            >
-              Chào mừng đến với Kiana shop...Miễn phí phí ship đối với đơn hàng
-              trên 200.000đ!!!! 
-            </span>
-          
-          </div>
+         
         </div>
 
         <div
@@ -216,7 +194,7 @@ const Header = () => {
             >
               Email:
             </strong>{" "}
-            army24062000@gmail.com
+            nhuanh@gmail.com
           </span>
         </div>
       </div>
